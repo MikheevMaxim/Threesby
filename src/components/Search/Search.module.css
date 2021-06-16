@@ -1,0 +1,111 @@
+.Search {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.Top {
+    border-bottom: 1px solid black;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    background-color: #443b3b;
+}
+
+.Top a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.Top input {
+    width: 70%;
+    margin-left: 20px;
+    background-color: #443b3b;
+    border: none;
+    color: aliceblue;
+    font-size: 22px;
+    outline: none;
+
+}
+
+.Top p:hover {
+    color: #d2c4c4;
+    cursor: pointer;
+}
+
+.Results {
+    margin-top: 7.5vh;
+    background-color: #443b3b;
+    width: 96%;
+    overflow: auto;
+    height: 92.5vh;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.Result {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 48%;
+    margin: 2px;
+    border-radius: 5px;
+    /*height: 30vh;*/
+    word-break: break-all;
+}
+
+/*.Result:hover {*/
+/*    background-color: #716161;*/
+/*    cursor: pointer;*/
+/*}*/
+
+.Name {
+    text-align: center;
+    color: #131010;
+    font-size: 22px;
+}
+
+.Result p {
+    text-align: center;
+}
+
+.Add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d2626;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    margin-top: 7vh;
+    height: 10vh;
+}
+
+.Add p {
+    font-size: 16px;
+}
+
+.Add:hover {
+    background-color: #574c4f;
+}
+
+.Friend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    margin-top: 7vh;
+    height: 10vh;
+}
+
+.Friend p {
+    font-size: 16px;
+}

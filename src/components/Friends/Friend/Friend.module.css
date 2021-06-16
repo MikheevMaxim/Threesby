@@ -1,0 +1,52 @@
+.Friend {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    height: 14vh;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.Friend:hover {
+    background-color: #322b2b;
+}
+
+.runDialog {
+    margin-right: 1%;
+    margin-left: auto;
+    color: green;
+    text-align: center;
+}
+
+.runDialog:hover {
+    color: #8e8d8d;
+    cursor: pointer;
+}
+
+.Delete {
+    color: red;
+    text-align: center;
+}
+
+.Delete:hover {
+    color: #a73333;
+    cursor: pointer;
+}
+
+.NameDiv {
+    word-break: break-all;
+    width: 100%;
+}
+
+.Name {
+    font-size: 22px;
+    margin-right: 3%;
+}
+
+.Friend a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 5%;
+    margin-left: auto;
+}

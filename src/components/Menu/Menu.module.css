@@ -1,0 +1,92 @@
+.MenuWindow {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    word-break: break-all;
+}
+
+.name {
+    font-size: 150%;
+    color: #131010;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    min-height: 100vh;
+}
+
+.background:hover {
+    cursor: pointer;
+}
+
+.Menu {
+    position: absolute;
+    border: 1px solid black;
+    width: 70%;
+    min-height: 100vh;
+    z-index: 2;
+    background-color: #574c4f;
+}
+
+.info {
+    border-bottom: 1px solid black;
+    height: auto;
+}
+
+.Ava {
+    font-size: 22px;
+}
+
+.Ava img {
+    margin-left: 20px;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.Ava p {
+    margin-left: 20px;
+}
+
+.exit {
+    height: 10px;
+    font-size: 16px;
+    text-align: right;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+.exit p:hover {
+    color: #d2c4c4;
+    cursor: pointer;
+}
+
+.items {
+    min-height: 60vh;
+}
+
+.items a {
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 120%;
+    padding-left: 5%;
+    padding-top: 30px;
+}
+
+.items a:hover {
+    color: #d2c4c4;
+    cursor: pointer;
+}
+
+.Mark {
+    font-size: 30px;
+    color: red;
+}
+

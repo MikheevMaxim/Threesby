@@ -1,0 +1,214 @@
+.ActiveDialog {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.Top {
+    border-bottom: 1px solid black;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    background-color: #2d2626;
+}
+
+.Top img {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.Ava {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    padding-left: 20px;
+}
+
+.Ava p {
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+.Back:hover {
+    color: #d2c4c4;
+    cursor: pointer;
+}
+
+.MyMessages {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: 20px;
+    border: 1px solid black;
+    margin-top: 20px;
+    min-width: 10%;
+    max-width: 70%;
+    background-color: #523131;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto;
+    word-break: break-all;
+}
+
+.MessagesFrom {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    max-width: 70%;
+    background-color: #443b3b;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: auto;
+    word-break: break-all;
+}
+
+.Messages {
+    margin-top: 7vh;
+    background-color: #574c4f;
+    width: 100%;
+    height: 86vh;
+    overflow: auto;
+}
+
+.Messages2 {
+     margin-top: 7vh;
+     background-color: #574c4f;
+     width: 100%;
+     height: 79vh;
+     overflow: auto;
+ }
+
+.Messages3 {
+      margin-top: 7vh;
+      background-color: #574c4f;
+      width: 100%;
+      height: 72vh;
+      overflow: auto;
+  }
+
+.Messages4 {
+       margin-top: 7vh;
+       background-color: #574c4f;
+       width: 100%;
+       height: 65vh;
+       overflow: auto;
+}
+
+.Input {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #2d2626;
+    height: 7vh;
+    border-top: 1px solid black;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+.Input2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #2d2626;
+    height: 14vh;
+    border-top: 1px solid black;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+.Input3 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #2d2626;
+    height: 21vh;
+    border-top: 1px solid black;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+.Input4 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #2d2626;
+    height: 28vh;
+    border-top: 1px solid black;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+.Input textarea {
+    resize: none;
+    text-decoration: none;
+    border: none;
+    width: 80%;
+    background-color: #2d2626;
+    color: aliceblue;
+    font-size: 16px;
+    outline: none;
+    overflow: hidden;
+    padding-top: 1vh;
+}
+
+.Input2 textarea {
+    resize: none;
+    border: none;
+    width: 80%;
+    margin-left: 20px;
+    background-color: #2d2626;
+    color: aliceblue;
+    font-size: 16px;
+    margin-top: 10px;
+    outline: none;
+    overflow: hidden;
+    padding-top: 1vh;
+}
+
+.Input3 textarea {
+    resize: none;
+    border: none;
+    width: 80%;
+    margin-left: 20px;
+    background-color: #2d2626;
+    color: aliceblue;
+    font-size: 16px;
+    margin-top: 10px;
+    outline: none;
+    overflow: hidden;
+    padding-top: 1vh;
+}
+
+.Input4 textarea {
+    resize: none;
+    border: none;
+    width: 80%;
+    margin-left: 20px;
+    background-color: #2d2626;
+    color: aliceblue;
+    font-size: 16px;
+    margin-top: 10px;
+    outline: none;
+    overflow: hidden;
+    padding-top: 1vh;
+}
+
+.AddMessage:hover {
+    color: #d2c4c4;
+    cursor: pointer;
+}
